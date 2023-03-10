@@ -1,0 +1,16 @@
+Public Class PlayerMovement
+{
+    public Player player;
+    public PlayerSprite playerSprite;
+    internal bool canJump = true;
+    internal int CamX;
+    internal int CamY;
+    internal array keybind[] keysdown = new keyBind[5];
+    internal int lastKeyDown;
+    internal bitmap Buffer;
+    internal Graphics g;
+    internal int toldalCoin;
+    internal readonly int index;
+    internal string Luuk;
+    internal float runtTime = 3.5f;
+}
